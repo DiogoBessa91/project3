@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'reactstrap';
 
 export default class Home extends Component {
   // constructor(props) {
@@ -9,8 +10,12 @@ export default class Home extends Component {
   render() {                
     return (
       <div className="Home">
-        <h2>Home</h2>
-        <p>This is a sample project with the MERN stack</p>
+      <img src="/images/fundacao.png" width="60%" height="60%"/>
+      <br/>
+      <div className="Homebtn"> 
+      <Button outline color="warning" href="/Login">Login</Button>
+      <Button outline color="warning" href="/Signup">Signup</Button>
+      </div>
       </div>
     );
   }

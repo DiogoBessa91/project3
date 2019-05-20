@@ -22,7 +22,7 @@ export default class Services extends Component {
       <div className="services">
         <ul class="card-stacks">
           <li class="title">
-            <h2>Expand to grid</h2>
+            <h2>Serviços</h2>
           </li>
           <li class="stack stack-1">
             <ul class="cards-down">

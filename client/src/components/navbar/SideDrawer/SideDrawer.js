@@ -9,6 +9,11 @@ const sideDrawer = props => {
   }
   return (
     <nav className={drawerClasses}>
+    			<div>
+          <img className="profileLogo" src="/images/fox.jpeg"/>
+				<h1>Diogo Bessa</h1>
+			</div>
+
       <ul>
          <li>
           <a href="/">Perfil</a>
@@ -17,10 +22,13 @@ const sideDrawer = props => {
           <a href="/">Mensagens</a>
         </li>
         <li>
-          <a href="/">Serviços</a>
+          <a href="/Services">Serviços</a>
         </li>
         <li>
-          <a href="/">Contactos</a>
+          <a href="/Events">Eventos</a>
+        </li>
+        <li>
+          <a href="/Contacts">Contactos</a>
         </li>
       </ul>
     </nav>

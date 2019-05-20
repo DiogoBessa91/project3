@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import api from '../../api';
+import './Login.css'
+
 
 export default class Login extends Component {
   constructor(props) {
@@ -30,17 +32,30 @@ export default class Login extends Component {
 
   render() {
     return (
-      <div className="Login">
-        <h2>Login</h2>
-        <form>
-          Username: <input type="text" value={this.state.username} name="username" onChange={this.handleInputChange} /> <br />
-          Password: <input type="password" value={this.state.password} name="password" onChange={this.handleInputChange} /> <br />
-          <button onClick={(e) => this.handleClick(e)}>Login</button>
-        </form>
+
+      <div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <h2 class="active"> Login </h2>
+
+
+    <form>
+      <input type="text" id="login" class="fadeIn second" value={this.state.username} name="username" onChange={this.handleInputChange}  placeholder="login" />
+      <input type="text" id="password" class="fadeIn third" value={this.state.password} name="password" onChange={this.handleInputChange} placeholder="password" />
+      <input type="submit" class="fadeIn fourth" value="Login" onClick={(e) => this.handleClick(e)} />
+    </form>
         {this.state.message && <div className="info info-danger">
           {this.state.message}
         </div>}
-      </div>
+
+
+
+    <div id="formFooter">
+      <a class="underlineHover" href="/Login">Forgot your password?</a>
+    </div>
+
+  </div>
+</div>
     );
   }
 }

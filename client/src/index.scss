@@ -1,6 +1,6 @@
 // --------------------
 // Definition of variables
-$primary: #32c3ff;
+// $primary: #32c3ff;
 
 
 // ----------------------------------------
@@ -23,6 +23,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: rgb(111, 165, 206) !important;
 }
 
 .info {
@@ -49,7 +50,7 @@ body {
   }
 
   .App-header {
-    background-color: $primary;
+    // background-color: $primary;
     padding: 20px;
     color: white;
 
@@ -96,6 +97,11 @@ body {
 .Secret {
   .result {
     font-size: 1.2em;
-    color: $primary;
+    // color: $primary;
   }
+}
+
+.Homebtn {
+  display: flex;
+  justify-content: space-evenly;
 }

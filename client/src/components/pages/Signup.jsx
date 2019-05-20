@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import api from '../../api';
+import './Login.css'
 
 export default class Signup extends Component {
   constructor(props) {
@@ -36,18 +37,38 @@ export default class Signup extends Component {
 
   render() {
     return (
-      <div className="Signup">
-        <h2>Signup</h2>
-        <form>
-          Username: <input type="text" value={this.state.username} name="username" onChange={this.handleInputChange} /> <br />
-          Name: <input type="text" value={this.state.name} name="name" onChange={this.handleInputChange} /> <br />
-          Password: <input type="password" value={this.state.password} name="password" onChange={this.handleInputChange} /> <br />
-          <button onClick={(e) => this.handleClick(e)}>Signup</button>
-        </form>
+
+      <div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <h2 class="active"> Signup </h2>
+
+
+    <form>
+      <input type="text" id="login" class="fadeIn second" value={this.state.username} name="username" onChange={this.handleInputChange}  placeholder="login" />
+      <input type="text" id="password" class="fadeIn third" value={this.state.password} name="password" onChange={this.handleInputChange} placeholder="password" />
+      <input type="submit" class="fadeIn fourth" value="Signup" onClick={(e) => this.handleClick(e)} />
+    </form>
         {this.state.message && <div className="info info-danger">
           {this.state.message}
         </div>}
-      </div>
+
+
+
+    <div id="formFooter">
+      <a class="underlineHover" href="/Login">Already have an acount?</a>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
     );
   }
 }
