@@ -24,6 +24,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: rgb(111, 165, 206) !important;
+  background-size: cover;
 }
 
 .info {
@@ -89,6 +90,24 @@ body {
 .Home {
   p {
     font-size: 1.2em;
+  }
+}
+
+@media (min-width: 768px) {
+  .Home {
+    margin: 50px;
+    width: 800px;
+    height: 500px;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 767px) {
+  .Home {
+    margin: 50px;
+    width: 350px;
+    height: 300px;
+    margin-left: 3%;
   }
 }
 

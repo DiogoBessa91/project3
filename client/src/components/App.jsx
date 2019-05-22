@@ -1,11 +1,15 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Services from './Services';
+import Services from './pages/Services';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import Contacts from './pages/Contacts';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Messages from './pages/Messages';
+import Profile from './pages/Profile';
+
+
 
 
 // import api from '../api';
@@ -26,6 +30,8 @@ export default function App() {
           <Route path="/Signup" component={Signup} />
           <Route path="/Events" component={Events} />
           <Route path="/Services" component={Services} />
+          <Route path="/Messages" component={Messages} />
+          <Route path="/Profile" component={Profile} />
           <Route render={() => <h2>404</h2>} />
         </Switch>
       </div>

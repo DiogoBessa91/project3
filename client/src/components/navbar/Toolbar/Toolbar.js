@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
@@ -13,11 +14,12 @@ const toolbar = props => (
         <div className="spacer" />
         <div className="toolbar_navigation-items">
             <ul>
-                <li><a href="/">Perfil</a></li>
-                <li><a href="/">Mensagens</a></li>
-                <li><a href="/Services">Serviços</a></li>
-                <li><a href="../Events">Eventos</a></li>
-                <li><a href="../Contacts">Contactos</a></li>
+                <li><NavLink to="/Profile" exact>Perfil</NavLink></li>
+                <li><NavLink to="/Messages" exact>Mensagens</NavLink></li>
+                <li><NavLink to="/Services" exact>Serviços</NavLink></li>
+                <li><NavLink to="/Events" exact>Eventos</NavLink></li>
+                <li><NavLink to="/Contacts" exact>Contactos</NavLink></li>
+                <li><img src="/images/fox.jpeg"/></li>
             </ul>
         </div>
     </nav>

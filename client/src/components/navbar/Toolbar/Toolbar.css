@@ -46,8 +46,9 @@
 }
 
 .toolbar_navigation-items a:hover,
-.toolbar_navigation-items a:active {
+.toolbar_navigation-items a.active {
   color: rgb(23, 130, 202);
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -65,3 +66,8 @@
     margin-left: 0;
   }
 }
+
+.toolbar_navigation-items img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%; }
