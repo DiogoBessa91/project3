@@ -23,7 +23,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: rgb(111, 165, 206) !important;
+  background-color: white !important;
   background-size: cover;
 }
 
@@ -52,8 +52,9 @@ body {
 
   .App-header {
     // background-color: $primary;
-    padding: 20px;
-    color: white;
+    // padding: 20px;
+    // color: white;
+    text-align: left;
 
     a {
       color: white;
