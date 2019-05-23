@@ -13,7 +13,9 @@
 	 padding: 25px;
 	 border-radius: 25px;
 	 height: 400px;
-	 transition: all 0.3s;
+   transition: all 0.3s;
+   padding-top: 10%;
+   
 }
  @media screen and (max-width: 992px) {
 	 .blog-slider {
@@ -30,7 +32,7 @@
 }
  @media screen and (max-height: 500px) and (min-width: 992px) {
 	 .blog-slider {
-		 height: 350px;
+     height: 350px;
 	}
 }
  .blog-slider__item {
