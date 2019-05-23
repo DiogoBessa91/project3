@@ -19,9 +19,6 @@ const sideDrawer = props => {
           <a href="/Profile">Perfil</a>
         </li>
         <li>
-          <a href="/Messages">Mensagens</a>
-        </li>
-        <li>
           <a href="/Services">Serviços</a>
         </li>
         <li>
