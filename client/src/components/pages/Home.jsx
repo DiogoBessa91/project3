@@ -22,10 +22,10 @@ export default class Home extends Component {
             <span class="box-logo">1</span>
           </div>
           <div class="wall-6">
-            <span class="box-logo">1</span>
+            <span class="box-logo">A</span>
           </div>
 
-          <p class="info">HTML5 | JADE | Bootstrap </p>
+          {/* <p class="info"></p> */}
         </div>			
 				
         <div class="box" id="b2">
@@ -39,9 +39,9 @@ export default class Home extends Component {
             <span class="box-logo pers">2</span>
           </div>
           <div class="wall-6">
-            <span class="box-logo">2</span>
+            <span class="box-logo">B</span>
           </div>	
-          <p class="info">css3 | sass | sass compass </p>			
+          {/* <p class="info"></p>			 */}
         </div>
 
         <div class="box" id="b3">
@@ -55,10 +55,10 @@ export default class Home extends Component {
             <span class="box-logo">3</span>
           </div>
           <div class="wall-6">
-            <span class="box-logo">3</span>
+            <span class="box-logo">C</span>
           </div>
 
-          <p class="info">jQuery Ui</p>
+          {/* <p class="info"></p> */}
         </div>		
 
 			        <div class="box" id="b4">
@@ -70,9 +70,9 @@ export default class Home extends Component {
             <span class="box-logo">4</span>
           </div>
           <div class="wall-6">
-            <span class="box-logo">4</span>
+            <span class="box-logo">D</span>
           </div>
-            <p class="info">svg</p>
+            {/* <p class="info"></p> */}
         </div>
 
 			        <div class="box" id="b5">
@@ -84,9 +84,9 @@ export default class Home extends Component {
             <span class="box-logo">5</span>
           </div>
           <div class="wall-6">
-            <span class="box-logo">5</span>
+            <span class="box-logo">E</span>
           </div>
-				          <p class="info">Landing page design | Mock Up card | Ретушь фото </p>
+				          {/* <p class="info"></p> */}
 			        </div>	
 			
 		      </div>

@@ -10,7 +10,7 @@ const sideDrawer = props => {
   return (
     <nav className={drawerClasses}>
     			<div>
-          <img className="profileLogo" src="/images/fox.jpeg"/>
+          <img className="profileLogoSide" src="/images/fox.jpeg"/>
 				<h1>Diogo Bessa</h1>
 			</div>
 
