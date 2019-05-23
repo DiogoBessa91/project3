@@ -10,8 +10,6 @@ import Messages from './pages/Messages';
 import Profile from './pages/Profile';
 
 
-
-
 // import api from '../api';
 import Navbar from './Navbar';
 

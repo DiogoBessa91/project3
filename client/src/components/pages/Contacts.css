@@ -6,6 +6,13 @@
   transform: translateY(-50%);
   text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+  .middle{
+
+    padding-top: -40%;
+  }
+}
 .btnCtn{
   display: inline-block;
   width: 90px;
